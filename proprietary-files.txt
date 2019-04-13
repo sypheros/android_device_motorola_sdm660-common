@@ -30,6 +30,10 @@ vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libqtigef.so
+lib/libbluetooth_qti.so
+lib/com.qualcomm.qti.bluetooth_audio@1.0.so
+lib64/libbluetooth_qti.so
+lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
