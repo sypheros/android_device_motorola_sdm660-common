@@ -116,7 +116,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1
 
 # FM
-ifeq ($(filter beckham, $(TARGET_DEVICE)),true)
+ifeq ($(filter evert, $(TARGET_DEVICE)),true)
     PRODUCT_PACKAGES += \
         FM2 \
         libqcomfm_jni \
@@ -210,8 +210,8 @@ PRODUCT_PACKAGES += \
     LineageActions
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_COPY_FILES += \

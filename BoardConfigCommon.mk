@@ -151,7 +151,7 @@ ifeq ($(HOST_OS),linux)
 endif
 
 # FM
-ifeq ($(filter beckham, $(TARGET_DEVICE)),true)
+ifeq ($(filter evert, $(TARGET_DEVICE)),true)
     BOARD_HAVE_QCOM_FM := true
     BOARD_HAS_QCA_FM_SOC := "cherokee"
 endif
@@ -183,14 +183,14 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
-#TARGET_KERNEL_CLANG_COMPILE := true
-#TARGET_KERNEL_CLANG_VERSION := 9.0.1
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := 9.0.1
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
 # Lineage hardware
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(PLATFORM_PATH)/lineagehw|**/*.java
+#JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(PLATFORM_PATH)/lineagehw|**/*.java
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
