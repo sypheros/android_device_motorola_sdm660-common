@@ -652,4 +652,13 @@
             <instance>imsrtpservice</instance>
         </interface>
     </hal>
+    <hal format="hidl">
+        <name>motorola.hardware.mods_camera.provider</name>
+        <transport>hwbinder</transport>
+        <version>2.4</version>
+        <interface>
+            <name>ICameraProvider</name>
+            <instance>mods_camera/0</instance>
+        </interface>
+    </hal>
 </manifest>
