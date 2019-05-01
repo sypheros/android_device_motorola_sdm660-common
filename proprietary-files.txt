@@ -752,3 +752,15 @@ lib64/com.motorola.hardware.display.panel@1.0.so
 lib64/motorola.hardware.audio@2.0.so
 lib64/motorola.hardware.audio.eqservice@1.0.so
 lib64/motorola.hardware.tcmd@1.0.so
+
+# more missed files
+lib/libcamerabgprocservice.so
+lib/libmmcamera_faceproc.so
+lib/libcamerabgproc-jni.so
+lib/libmmcamera_faceproc2.so
+lib/motorola.hardware.camera.imgtuner@1.0.so
+lib64/libcamerabgprocservice.so
+lib64/libmmcamera_faceproc.so
+lib64/libcamerabgproc-jni.so
+lib64/libmmcamera_faceproc2.so
+lib64/motorola.hardware.camera.imgtuner@1.0.so
