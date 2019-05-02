@@ -202,3 +202,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# Wifi Display
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.gralloc.disable_wb_ubwc=1
