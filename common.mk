@@ -181,8 +181,12 @@ PRODUCT_PACKAGES += \
     init.qcom.sensors.sh \
     init.qcom.sh \
     init.qti.qseecomd.sh \
+    init.mmi.boot.sh \
+    init.mmi.carrier.sh \
     ueventd.qcom.rc \
     move_time_data.sh \
+    mmi.carrier.rc \
+    vendor.mmi.carrier.rc \
     wlan_carrier_bin.sh
 
 # IPACM
