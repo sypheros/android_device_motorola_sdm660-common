@@ -93,11 +93,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
 
 # Play store
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.com.google.clientidbase.am=android-motorola \
+#    ro.com.google.clientidbase.gmm=android-motorola \
+#    ro.com.google.clientidbase.ms=android-motorola \
+#    ro.com.google.clientidbase.yt=android-motorola
+# Moto_FI
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.google.clientidbase.am=android-motorola \
-    ro.com.google.clientidbase.gmm=android-motorola \
-    ro.com.google.clientidbase.ms=android-motorola \
-    ro.com.google.clientidbase.yt=android-motorola
+    ro.mot.product_wave=2017.3
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
