@@ -420,6 +420,11 @@ on boot
     setprop sys.usb.controller "a800000.dwc3"
     setprop sys.usb.configfs 1
 
+service vendor.mmi-boot-sh /vendor/bin/init.mmi.boot.sh
+    class core
+    user root
+    oneshot
+
 # msm specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/misc 01771 system system
