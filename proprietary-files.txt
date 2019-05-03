@@ -764,5 +764,3 @@ lib64/libmmcamera_faceproc.so
 lib64/libcamerabgproc-jni.so
 lib64/libmmcamera_faceproc2.so
 lib64/motorola.hardware.camera.imgtuner@1.0.so
-etc/audio_ext_spkr.conf
-lib64/libmotaudiohal@2.0.so
