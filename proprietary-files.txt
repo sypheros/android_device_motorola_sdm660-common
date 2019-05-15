@@ -764,3 +764,7 @@ lib64/libmmcamera_faceproc.so
 lib64/libcamerabgproc-jni.so
 lib64/libmmcamera_faceproc2.so
 lib64/motorola.hardware.camera.imgtuner@1.0.so
+lib/libmmcamera_faceproc.so
+lib/libmmcamera_faceproc2.so
+lib64/libmmcamera_faceproc.so
+lib64/libmmcamera_faceproc2.so
