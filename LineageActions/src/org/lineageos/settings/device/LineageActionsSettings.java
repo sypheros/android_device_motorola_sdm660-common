@@ -17,14 +17,12 @@
 
 package org.lineageos.settings.device;
 
-import android.content.ContentResolver;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.UserHandle;
 import android.preference.PreferenceManager;
-import android.provider.Settings;
 
-import android.util.Log;
+import com.android.internal.hardware.AmbientDisplayConfiguration;
 
 import com.android.internal.hardware.AmbientDisplayConfiguration;
 
