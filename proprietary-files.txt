@@ -768,3 +768,10 @@ lib/libmmcamera_faceproc.so
 lib/libmmcamera_faceproc2.so
 lib64/libmmcamera_faceproc.so
 lib64/libmmcamera_faceproc2.so
+
+# DTV
+etc/permissions/com.motorola.hardware.dtv.xml
+etc/permissions/mot_dtv_permissions.xml
+etc/permissions/unavail.com.motorola.hardware.dtv.xml
+lib/libdtvtuner.so
+lib64/libdtvtuner.so
