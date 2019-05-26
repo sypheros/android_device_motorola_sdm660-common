@@ -412,13 +412,6 @@
     <!-- Turn on LiveDisplay auto mode by default -->
     <integer name="config_defaultLiveDisplayMode">0</integer>
 
-    <!-- Should we filter any display modes which are unampped? -->
-    <bool name="config_filterDisplayModes">true</bool>   
-
-     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
-	     autodetected from the Configuration. -->
-	<bool name="config_showNavigationBar">true</bool>
- 
     <!-- Display mode remapping table.
          If the mode names returned by the backend do not match
          the predefined and translated strings in the Settings
