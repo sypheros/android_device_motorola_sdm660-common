@@ -551,7 +551,16 @@
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="6" />
     </carrier_config>
+    <carrier_config mcc="404" mnc="27">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="40">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="404" mnc="92">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="94">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="404">

@@ -150,12 +150,6 @@ ifeq ($(HOST_OS),linux)
     endif
 endif
 
-# FM
-ifeq ($(filter evert, $(TARGET_DEVICE)),true)
-    BOARD_HAVE_QCOM_FM := true
-    BOARD_HAS_QCA_FM_SOC := "cherokee"
-endif
-
 # GPS
 TARGET_NO_RPC := true
 USE_DEVICE_SPECIFIC_GPS := true
@@ -213,7 +207,7 @@ CUSTOM_APNS_FILE := $(PLATFORM_PATH)/configs/sprint_apns.xml
 BOARD_ROOT_EXTRA_FOLDERS := persist
 
 # Vendor Security Patch Level
-VENDOR_SECURITY_PATCH := 2018-11-01
+VENDOR_SECURITY_PATCH := 2019-03-01
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
