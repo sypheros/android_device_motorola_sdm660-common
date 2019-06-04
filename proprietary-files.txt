@@ -418,8 +418,8 @@ vendor/lib64/libvpphvx.so
 vendor/lib64/libvpplibrary.so
 
 # Moto Permissions
-etc/permissions/com.motorola.moto.xml:vendor/etc/permissions/com.motorola.moto.xml
-etc/permissions/com.motorola.motodisplay.xml:vendor/etc/permissions/com.motorola.motodisplay.xml
+etc/permissions/com.motorola.moto.xml
+etc/permissions/com.motorola.motodisplay.xml
 vendor/etc/permissions/com.motorola.camera2.xml|6d77e9310c6647cda3c35f64097a14a1bda798d3
 
 # Offmode charging
@@ -775,3 +775,29 @@ etc/permissions/mot_dtv_permissions.xml
 etc/permissions/unavail.com.motorola.hardware.dtv.xml
 lib/libdtvtuner.so
 lib64/libdtvtuner.so
+
+# Grafics from stock
+etc/permissions/com.qti.snapdragon.sdk.display.xml
+lib/android.frameworks.displayservice@1.0.so
+lib/vendor.display.config@1.2.so
+lib/vendor.display.postproc@1.0.so
+lib/vendor.display.config@1.3.so
+lib/vendor.display.color@1.2.so
+lib/vendor.display.color@1.1.so
+lib/libsd_sdk_display.so
+lib/vendor.display.color@1.0.so
+lib/vendor.display.config@1.1.so
+lib/vendor.display.config@1.5.so
+lib/vendor.display.config@1.4.so
+framework/com.qti.snapdragon.sdk.display.jar
+lib64/vendor.display.config@1.2.so
+lib64/vendor.display.postproc@1.0.so
+lib64/vendor.display.config@1.3.so
+lib64/vendor.display.color@1.2.so
+lib64/vendor.display.color@1.1.so
+lib64/libdisplayservicehidl.so
+lib64/libsd_sdk_display.so
+lib64/vendor.display.color@1.0.so
+lib64/vendor.display.config@1.1.so
+lib64/vendor.display.config@1.5.so
+lib64/vendor.display.config@1.4.so
