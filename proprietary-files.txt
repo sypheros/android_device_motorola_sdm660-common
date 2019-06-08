@@ -774,16 +774,13 @@ lib64/libmmcamera_faceproc2.so
 # DTV
 etc/permissions/com.motorola.hardware.dtv.xml
 etc/permissions/mot_dtv_permissions.xml
-etc/permissions/unavail.com.motorola.hardware.dtv.xml
 lib/libdtvtuner.so
 lib64/libdtvtuner.so
 
 # Grafics from stock
 etc/permissions/com.qti.snapdragon.sdk.display.xml
-#lib/android.frameworks.displayservice@1.0.so
 lib/vendor.display.postproc@1.0.so
-#lib/libsd_sdk_display.so
 framework/com.qti.snapdragon.sdk.display.jar
 lib64/vendor.display.postproc@1.0.so
-#lib64/libdisplayservicehidl.so
 lib64/libsd_sdk_display.so
+lib/android.hardware.soundtrigger@2.0-core.so
