@@ -94,6 +94,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
+    android.frameworks.displayservice@1.0 \
     copybit.sdm660 \
     gralloc.sdm660 \
     hwcomposer.sdm660 \
@@ -103,8 +104,9 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libqdMetaData.system \
     libvulkan \
-    libtinyxml
-
+    libtinyxml \
+    libdisplayservicehidl \
+    libsd_sdk_display
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \

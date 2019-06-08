@@ -68,7 +68,11 @@ on init
     write /sys/devices/system/cpu/cpufreq/policy0/schedutil/down_rate_limit_us 20000
 
     # configure governor settings for big cluster
+<<<<<<< HEAD
     write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor "darkness"
+=======
+    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor "interactive"
+>>>>>>> 2c6de987... cleanup trees
     write /sys/devices/system/cpu/cpufreq/policy4/schedutil/up_rate_limit_us 500
     write /sys/devices/system/cpu/cpufreq/policy4/schedutil/down_rate_limit_us 20000
 

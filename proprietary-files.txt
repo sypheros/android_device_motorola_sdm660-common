@@ -780,26 +780,10 @@ lib64/libdtvtuner.so
 
 # Grafics from stock
 etc/permissions/com.qti.snapdragon.sdk.display.xml
-lib/android.frameworks.displayservice@1.0.so
-lib/vendor.display.config@1.2.so
+#lib/android.frameworks.displayservice@1.0.so
 lib/vendor.display.postproc@1.0.so
-lib/vendor.display.config@1.3.so
-lib/vendor.display.color@1.2.so
-lib/vendor.display.color@1.1.so
-lib/libsd_sdk_display.so
-lib/vendor.display.color@1.0.so
-lib/vendor.display.config@1.1.so
-lib/vendor.display.config@1.5.so
-lib/vendor.display.config@1.4.so
+#lib/libsd_sdk_display.so
 framework/com.qti.snapdragon.sdk.display.jar
-lib64/vendor.display.config@1.2.so
 lib64/vendor.display.postproc@1.0.so
-lib64/vendor.display.config@1.3.so
-lib64/vendor.display.color@1.2.so
-lib64/vendor.display.color@1.1.so
-lib64/libdisplayservicehidl.so
+#lib64/libdisplayservicehidl.so
 lib64/libsd_sdk_display.so
-lib64/vendor.display.color@1.0.so
-lib64/vendor.display.config@1.1.so
-lib64/vendor.display.config@1.5.so
-lib64/vendor.display.config@1.4.so
