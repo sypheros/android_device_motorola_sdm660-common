@@ -13,8 +13,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.default.acc=150000 \
     persist.vendor.audio.dualmic.config=endfire \
     persist.vendor.audio.fluence.audiorec=false \
-    persist.vendor.audio.fluence.speaker=true \
-    persist.vendor.audio.fluence.voicecall=true \
+    persist.audio.fluence.speaker=true \
+    persist.audio.fluence.voicecall=true \
     persist.vendor.audio.fluence.voicecomm=true \
     persist.vendor.audio.fluence.voicerec=false \
     persist.vendor.audio.hw.binder.size_kbyte=1024 \
@@ -46,10 +46,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.use.sw.alac.decoder=false \
     vendor.audio.use.sw.ape.decoder=false \
     vendor.fm.a2dp.conc.disabled=true \
-    vendor.voice.path.for.pcm.voip=true \
+    use.voice.path.for.pcm.voip=true \
     vendor.audio.offload.min.duration.secs=60
     ro.config.media_vol_steps=25 \
-    ro.config.vc_call_vol_steps=7
+    ro.config.vc_call_vol_steps=8
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
