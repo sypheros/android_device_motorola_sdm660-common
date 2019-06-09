@@ -48,8 +48,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.fm.a2dp.conc.disabled=true \
     vendor.voice.path.for.pcm.voip=true \
     vendor.audio.offload.min.duration.secs=60
-    ro.config.media_vol_steps=25 \
-    ro.config.vc_call_vol_steps=7
+    ro.config.media_vol_steps=25
+#    ro.config.vc_call_vol_steps=7
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
