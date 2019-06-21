@@ -644,12 +644,12 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>motorola.hardware.mods_camera.provider</name>
+        <name>vendor.dolby.hardware.dms</name>
         <transport>hwbinder</transport>
-        <version>2.4</version>
+        <version>1.0</version>
         <interface>
-            <name>ICameraProvider</name>
-            <instance>mods_camera/0</instance>
+            <name>IDms</name>
+            <instance>default</instance>
         </interface>
     </hal>
 </manifest>
